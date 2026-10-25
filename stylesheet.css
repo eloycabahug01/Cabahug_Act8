@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    background-image: url('backgroundimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #cccccc;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    padding: 0 7%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f1f1f;
+    border: 2px solid #2d6a4f;
+    border-radius: 4px;
+    padding: 18px 25px;
+    margin: 30px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+nav h2 {
+    font-size: 18px;
+    color: #90be6d;
+    letter-spacing: 2px;
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+nav a {
+    color: #cccccc;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #90be6d;
+}
+
+
+h1 {
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 1.2;
+    margin: 25px 0 10px 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #2d6a4f;
+    padding-bottom: 6px;
+}
+
+h3 {
+    color: #90be6d;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+
+
+
+.action a {
+    display: inline-block;
+    background-color: #2d6a4f;
+    color: #ffffff;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 4px;
+    border: 1px solid #52b788;
+
+}
+
+.action a:hover {
+    background-color: #52b788;
+    transform: translateY(-2px);
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #2d6a4f;
+    margin: 35px 0;
+}
+
+.hero-card {
+    background-color: #1f1f1f;
+    border: 3px solid #2d6a4f;
+    border-radius: 1px;
+    padding: 4px;
+}
+
+.hero-card:hover {
+    border-color: #90be6d;
+    transform: translateY(-3px);
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    color: #6c757d;
+    font-size: 12px;
+    border-top: 1px solid #2d6a4f;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #90be6d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
